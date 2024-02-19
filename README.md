@@ -19,6 +19,7 @@ Tiene un extra en las vistas del CRUD usando Thymeleaf
 Las migraciones son con Flyway.
 La base de datos es MYSQL
 LINK DE COLECCIÒN DE POSTMAN
+
 https://api.postman.com/collections/21092219-6fbf54f7-ba0b-4710-9871-05b60d0067d6?access_key=PMAT-01HQ14CQ33E69Y5TSNV9G2VWJ9
 
 
