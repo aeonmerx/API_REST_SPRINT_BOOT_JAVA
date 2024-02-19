@@ -23,32 +23,33 @@ https://api.postman.com/collections/21092219-6fbf54f7-ba0b-4710-9871-05b60d0067d
 
 
 **HISTORIAS DE USUARIO**
-Historia de Usuario: Creación de Entradas para Personas
+
+- Historia de Usuario:Creación de Entradas para Personas
 
 Como usuario desarrollador, quiero poder crear entradas para personas a través de un servicio RESTful utilizando la aplicación Spring Webflux. Esto me permitirá almacenar información relevante en la base de datos y garantizar la integridad de los datos.
 
-Criterios de Aceptación:
+**Criterios de Aceptación:**
 
-Como usuario desarrollador, quiero exponer un endpoint POST con la ruta /api/personas para crear nuevas entradas para personas.
+- Como usuario desarrollador, quiero exponer un endpoint POST con la ruta /api/personas para crear nuevas entradas para personas.
 
-Como usuario desarrollador, quiero definir un formato JSON para la entrada con al menos tres campos (campo1, campo2, campo3) que representarán la información relevante de la persona.
+- Como usuario desarrollador, quiero definir un formato JSON para la entrada con al menos tres campos (campo1, campo2, campo3) que representarán la información relevante de la persona.
 
-Como usuario desarrollador, quiero recibir un mensaje de confirmación indicando que la entrada para la persona ha sido creada exitosamente.
+- Como usuario desarrollador, quiero recibir un mensaje de confirmación indicando que la entrada para la persona ha sido creada exitosamente.
 
-Como usuario desarrollador, quiero asegurar la validez de los datos mediante al menos tres validaciones que se ejecutarán durante el proceso de creación.
+- Como usuario desarrollador, quiero asegurar la validez de los datos mediante al menos tres validaciones que se ejecutarán durante el proceso de creación.
 
-Historia de Usuario: Obtener Información de Personas por Parámetro
+- Historia de Usuario: Obtener Información de Personas por Parámetro
 
-Como usuario desarrollador, necesito poder obtener información sobre una persona específica mediante un servicio RESTful utilizando la aplicación Spring Webflux. Esto me permitirá acceder y mostrar datos específicos de una persona almacenados en la base de datos.
+- Como usuario desarrollador, necesito poder obtener información sobre una persona específica mediante un servicio RESTful utilizando la aplicación Spring Webflux. Esto me permitirá acceder y mostrar datos específicos de una persona almacenados en la base de datos.
 
-Criterios de Aceptación:
+**Criterios de Aceptación:**
 
-Como usuario desarrollador, quiero exponer un endpoint GET con la ruta /api/personas/{parametro} para obtener información sobre una persona específica.
+- Como usuario desarrollador, quiero exponer un endpoint GET con la ruta /api/personas/{parametro} para obtener información sobre una persona específica.
 
-Como usuario desarrollador, quiero definir un parámetro único ({parametro}) que se utilizará como identificador para recuperar la información de la persona.
+- Como usuario desarrollador, quiero definir un parámetro único ({parametro}) que se utilizará como identificador para recuperar la información de la persona.
 
-Como usuario desarrollador, quiero recibir la información de la persona en formato JSON, incluyendo cuatro campos (nombres, apellidos, telefono, correo).
+- Como usuario desarrollador, quiero recibir la información de la persona en formato JSON, incluyendo cuatro campos (nombres, apellidos, telefono, correo).
 
-Como usuario desarrollador, quiero garantizar la existencia del parámetro y manejar adecuadamente los casos en los que no se encuentre información.
+- Como usuario desarrollador, quiero garantizar la existencia del parámetro y manejar adecuadamente los casos en los que no se encuentre información.
 
 Estas historias de usuario reflejan la necesidad del usuario desarrollador de crear y obtener información sobre personas a través de servicios RESTful implementados
