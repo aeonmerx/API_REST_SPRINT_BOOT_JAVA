@@ -11,7 +11,7 @@ IntelliJ IDEA (Recomendado)
 Microservicios REST
 La aplicación expone dos microservicios REST en formato JSON:
 en las rutas :
-**api/personas**
+**api/personas** y
 **api/empresas**
 CON LOS MÈTODOS HTTP GET, POST, PUT, DELETE
 ORM HIBERNATE
