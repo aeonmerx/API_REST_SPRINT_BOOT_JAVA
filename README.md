@@ -17,9 +17,14 @@ en las rutas :
 
 **api/personas** 
 
-**api/empresas**
+**api/empresas
+
 CON LOS MÈTODOS HTTP GET, POST, PUT, DELETE
-ORM HIBERNATE
+
+EL ORM  ES HIBERNATE
+
+Se usa una arquitectura Multicapa, y el patron MVC(Modelo Vista Controlador)
+
 Tiene un extra en las vistas del CRUD usando Thymeleaf
 Las migraciones son con Flyway.
 La base de datos es MYSQL
