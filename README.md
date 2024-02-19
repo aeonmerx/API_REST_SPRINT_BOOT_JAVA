@@ -1,4 +1,5 @@
-API REST CON SPRINT BOOT JAVA MVC WEB
+**API REST CON SPRINT BOOT JAVA MVC WEB
+
 La aplicación fue desarrollada utilizando la tecnología Java Spring Webflux, adoptando un enfoque de programación reactiva y orientada a objetos. A continuación, se detallan los requerimientos cumplidos:
 Este proyecto es una aplicación Gradle desarrollada en Java utilizando Spring Webflux, una tecnología basada en programación reactiva. El objetivo principal es exponer dos microservicios RESTful en formato JSON, implementando un método POST y un método GET. Además, se busca asegurar un código limpio y modular, utilizando programación funcional en al menos un 70%.
 
