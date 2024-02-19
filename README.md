@@ -52,4 +52,4 @@ Como usuario desarrollador, quiero poder crear entradas para personas a través 
 
 - Como usuario desarrollador, quiero garantizar la existencia del parámetro y manejar adecuadamente los casos en los que no se encuentre información.
 
-Estas historias de usuario reflejan la necesidad del usuario desarrollador de crear y obtener información sobre personas a través de servicios RESTful implementados
+
