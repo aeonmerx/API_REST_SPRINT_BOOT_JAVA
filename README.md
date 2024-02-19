@@ -6,16 +6,17 @@ El objetivo principal es exponer dos microservicios RESTful en formato JSON, imp
 
 Requisitos
 Java 9 o superior
-Gradle (Se recomienda la instalación a través de sdkman)
 IntelliJ IDEA (Recomendado)
 
 Microservicios REST
 La aplicación expone dos microservicios REST en formato JSON:
-en las rutas api/personas
-api/empresas
+en las rutas :
+**api/personas**
+**api/empresas**
 CON LOS MÈTODOS HTTP GET, POST, PUT, DELETE
+ORM HIBERNATE
 Tiene un extra en las vistas del CRUD usando Thymeleaf
 Las migraciones son con Flyway.
-La abse de datos es MYSQL
+La base de datos es MYSQL
 LINK DE COLECCIÒN DE POSTMAN
 https://api.postman.com/collections/21092219-6fbf54f7-ba0b-4710-9871-05b60d0067d6?access_key=PMAT-01HQ14CQ33E69Y5TSNV9G2VWJ9
