@@ -12,9 +12,11 @@ Java 9 o superior
 IntelliJ IDEA (Recomendado)
 
 Microservicios REST
-La aplicación expone dos microservicios REST en formato JSON:
+La aplicación expone REST en formato JSON:
 en las rutas :
-**api/personas** y
+
+**api/personas** 
+
 **api/empresas**
 CON LOS MÈTODOS HTTP GET, POST, PUT, DELETE
 ORM HIBERNATE
